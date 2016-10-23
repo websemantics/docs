@@ -10,8 +10,7 @@ Note over A: Note over A
 Note over A,B: Note over both A and B
 ```
 
-
- <div><textarea id="code" style="width: 100%;" rows="11">
+```chart
 st=>start: Start|past:>http://www.google.com[blank]
 e=>end: End:>http://www.google.com
 op1=>operation: My Operation|past
@@ -27,9 +26,9 @@ cond(yes, right)->c2
 cond(no)->sub1(left)->op1
 c2(yes)->io->e
 c2(no)->op2->e
-        </textarea></div>
+```
 
-        
+
 ```bash
 #!/bin/bash
 set -e # Exit on failure
