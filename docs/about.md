@@ -4,9 +4,11 @@ layout: default
 ---
 
 ```diagram
-Title: Here is a title
-A->B: Normal line
-B-->C: Dashed line
+# Example of a comment.
+Note left of A: Note to the\n left of A
+Note right of A: Note to the\n right of A
+Note over A: Note over A
+Note over A,B: Note over both A and B
 ```
 
 ```bash
@@ -16,7 +18,6 @@ set -e # Exit on failure
 ```
 
 ```php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
@@ -28,7 +29,6 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
-
 ```
 
 Learn more about this styleguide, particularly how it’s built and who maintains it.
