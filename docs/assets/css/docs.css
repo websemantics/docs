@@ -5,9 +5,26 @@
  * Released under MIT license. Copyright 2015 GitHub, Inc.
  */
 
- pre {
-   border-radius: 5px;
- }
+:not(pre)>code[class*=language-], pre[class*=language-] {
+    border-radius: 5px;
+    background: #f5f5f5;
+}
+
+:not(pre)>code[class*=language-], pre[class*=language-] {
+    background: #fff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
  
 .masthead .masthead-logo img {
   margin-right: 4px;
