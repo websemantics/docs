@@ -3,13 +3,17 @@ title: About
 layout: default
 ---
 
+```diagram
+A->B: Message
+```
+
 ```bash
 #!/bin/bash
 set -e # Exit on failure
 # bash script here!
 ```
 
-```
+```php
 
 namespace App\Http\Controllers;
 
