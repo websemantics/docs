@@ -4,10 +4,10 @@ layout: default
 ---
 
 ```diagram
-Note left of A: Note to the\n left of A
-Note right of A: Note to the\n right of A
-Note over A: Note over A
-Note over A,B: Note over both A and B
+participant C
+participant B
+participant A
+Note right of A: By listing the participants\n you can change their order
 ```
 
 ```chart
