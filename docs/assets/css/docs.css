@@ -10,7 +10,7 @@
     background: #f5f5f5;
 }
 
-:not(pre)>code[class*=language-], pre[class*=language-] {
+:not(pre)>code[class*=language-diagram], pre[class*=language-diagram] {
     background: #fff;
     text-align: center;
 }
