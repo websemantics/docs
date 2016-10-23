@@ -4,14 +4,11 @@ layout: default
 ---
 
 ```diagram
-A->B: Message
-```
-
-```diagram
-Andrew->China: Says Hello
-Note right of China: China thinks\nabout it
-China-->Andrew: How are you?
-Andrew->>China: I am good thanks!
+Title: Here is a title
+A->B: Normal line
+B-->C: Dashed line
+C->>D: Open arrow
+D-->>A: Dashed open arrow
 ```
 
 ```bash
