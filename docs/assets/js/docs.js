@@ -35,12 +35,16 @@
  *  @author    Web Semantics, Inc. Dev Team <team@websemantics.ca>
  *  @author    Adnan M.Sagar, PhD. <adnan@websemantics.ca>
  *
- */
+ */                              'font-color': 'black',
+
 
 !function ($) {
   'use strict'
   $(function () {
     $(".language-diagram").sequenceDiagram({color: '#798486', theme: 'simple' /* 'hand' */})
-    $(".language-chart").flowChart({'line-color': '#798486','line-width': 2})
+    $(".language-chart").flowChart({'line-color': '#798486', 
+                                    'font-color': '#798486', 
+                                    'element-color': '#798486',
+                                    'line-width': 2})
   })
 }($)
