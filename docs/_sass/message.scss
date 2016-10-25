@@ -1,0 +1,36 @@
+/*
+ * Builder extension documentation styles
+ * http://ibuild.io
+ *
+ * Released under MIT license. Copyright 2015 Web Semantics, Inc.
+ */
+
+.message {
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #949d9e;
+    background-color: #f7f7f7;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    &.info {
+        color: #336699;
+        background-color: #e2eef9;
+        border-color: #bac6d3;
+    }
+    &.info {
+        color: #336699;
+        background-color: #e2eef9;
+        border-color: #bac6d3;
+    }
+    &.warning {
+        color: #5f5d53;
+        background-color: #fff9ea;
+        border-color: #dfd8c2;
+    }
+    &.danger {
+        color: #cf1717;
+        background-color: #fcdede;
+        border-color: #d2b2b2;
+    }
+}

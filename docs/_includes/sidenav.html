@@ -1,24 +1,24 @@
-<div class="list">
+<div>
   <h3><a href="https://github.com/websemantics/builder-extension">Builder Extension</a></h3>
-    <nav class="list">
-      <ul>
-        {% for p in site.pages %}
-          {% if p.layout == "docs" and p.group == "components" %}
-            <li {% if p.title == page.title %}class="selected"{% endif %}><a href="{{ site.baseurl }}/{{ p.url }}">{{ p.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </nav>
+  <nav class="sidenav">
+    <ul>
+      {% for p in site.pages %}
+        {% if p.layout == "docs" and p.group == "components" %}
+          <li {% if p.title == page.title %}class="selected"{% endif %}><a href="{{ site.baseurl }}/{{ p.url }}">{{ p.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
 </div>
 <br/>
-<div class="list">
-    <nav class="list">
-      <ul>
-        {% for p in site.pages %}
-          {% if p.layout == "docs" and p.group == "extra" %}
-            <li {% if p.title == page.title %}class="selected"{% endif %}><a href="{{ site.baseurl }}/{{ p.url }}">{{ p.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </nav>
+<div>
+  <nav class="sidenav">
+    <ul>
+      {% for p in site.pages %}
+        {% if p.layout == "docs" and p.group == "extra" %}
+          <li {% if p.title == page.title %}class="selected"{% endif %}><a href="{{ site.baseurl }}/{{ p.url }}">{{ p.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
 </div>
