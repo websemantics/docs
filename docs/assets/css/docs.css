@@ -137,10 +137,15 @@ nav.list ul li:last-child {
     padding: 15px;
     font-size: 14px;
     line-height: 1.5;
-    color: #798486;
+    color: #a1a9aa;
     background-color: #f7f7f7;
     border: 1px solid #e5e5e5;
     border-radius: 3px;
+}
+.message.info {
+	color: #336699;
+    background-color: #e2eef9;
+    border-color: #bac6d3;
 }
 .message.warning {
 	color: #5f5d53;
@@ -148,7 +153,7 @@ nav.list ul li:last-child {
     border-color: #dfd8c2;
 }
 .message.danger {
-    color: #b81414;
+    color: #cf1717;
     background-color: #fcdede;
     border-color: #d2b2b2;
 }

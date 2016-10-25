@@ -52,7 +52,7 @@ Add `.warning` or `.danger` to the flash message to make it yellow or red, respe
 Add an icon to the left of the flash message to give it some funky fresh attention. Just add `.with-icon` and your Octicon.
 
 <code>
-<div class="message with-icon">
+<div class="message info">
   <span class="octicon octicon-alert"></span>
   Flash message with an icon goes here.
 </div>
