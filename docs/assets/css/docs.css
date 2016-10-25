@@ -166,6 +166,7 @@
     	display: inline-block;
 		color: #ffffff;
 		margin: 2px;
+	    padding: .78571429em 1.5em;
 		background-color: transparent;
 		box-shadow: 0 0 0 1px #ffffff inset;
 		font-weight: 400;
@@ -181,7 +182,6 @@
     background: #E0E1E2;
     color: rgba(0,0,0,.6);
     margin: 0 .25em 0 0;
-    padding: .78571429em 1.5em;
     text-transform: none;
     text-shadow: none;
     font-weight: 700;
@@ -192,6 +192,9 @@
     border-radius: .28571429rem;
     box-shadow: 0 0 0 1px transparent inset,0 0 0 0 rgba(34,36,38,.15) inset;
 	*/
+	}
+	.jumbotron .ui.labeled.button>.button {
+		margin: 0;
 	}
 	.jumbotron .ui.labeled.button>.label {
 		color: #ffffff;
