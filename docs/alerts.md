@@ -57,14 +57,3 @@ Add an icon to the left of the flash message to give it some funky fresh attenti
   Flash message with an icon goes here.
 </div>
 </code>
-
-## Dismiss
-
-Add a JavaScript enabled (via Crema) dismiss (close) icon on the right of any flash message.
-
-<code>
-<div class="message">
-  <span class="octicon octicon-x flash-close js-flash-close"></span>
-  Dismissable flash message goes here.
-</div>
-</code>
