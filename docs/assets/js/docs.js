@@ -39,11 +39,14 @@
 
 !function ($) {
   'use strict'
+  var gray = '#a3abac';
+  var darkGray = '#798486';
+
   $(function () {
-    $(".language-diagram").sequenceDiagram({color: '#798486', theme: 'simple' /* 'hand' */})
-    $(".language-chart").flowChart({'line-color': '#a3abac', 
-                                    'font-color': '#798486', 
-                                    'element-color': '#a3abac',
+    $(".language-diagram").sequenceDiagram({color: darkGray, theme: 'simple' /* 'hand' */})
+    $(".language-chart").flowChart({'line-color': gray, 
+                                    'font-color': darkGray, 
+                                    'element-color': gray,
                                     'line-width': 2})
   })
 }($)

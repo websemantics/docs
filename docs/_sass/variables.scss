@@ -6,3 +6,7 @@
  */
 
 $primary: #64c4d4;
+$gray: #a3abac;
+
+$text-color: $gray;
+$text-color-dark:  darken($gray, 10%);
