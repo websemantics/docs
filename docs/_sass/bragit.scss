@@ -4,3 +4,43 @@
  *
  * Released under MIT license. Copyright 2015 Web Semantics, Inc.
  */
+
+.ui.button {
+    display: inline-block;
+    color: #ffffff;
+    margin: 2px;
+    padding: .78571429em 1.5em;
+    background-color: transparent;
+    box-shadow: 0 0 0 1px #ffffff inset;
+    font-weight: 400;
+    border-radius: .28571429rem;
+    text-transform: none;
+    text-shadow: none!important;
+    &:focus,
+    &:hover,
+    &.labeled>.label:focus,
+    &.labeled>.label:hover {
+        color: $primary;
+        background-color: #ffffff;
+    }
+    &.labeled {
+        &>.label {
+            color: #ffffff;
+            background-color: transparent;
+            border-color: #ffffff;
+        }
+        .ui.button {
+            .star.icon {
+                color: #e3d09c;
+            }
+            &:hover {
+                color: #cdaa4c;
+            }
+        } 
+    } 
+}
+.ui.labeled.button:not(.icon) {
+	padding: 0;
+	border: none;
+	box-shadow: none;
+}
