@@ -173,7 +173,7 @@
 		background-color: transparent;
 		border-color: #ffffff;
 	}
-	.ui.basic.button, .ui.basic.buttons .button {
+	.ui.button {
 		background: 0 0!important;
 		color: rgba(0,0,0,.6)!important;
 		font-weight: 400;
