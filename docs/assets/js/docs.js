@@ -40,7 +40,7 @@
 !function ($) {
   'use strict'
   $(function () {
-    $(".language-diagram").sequenceDiagram({stroke: '#798486', theme: 'simple' /* 'hand' */})
-    $(".language-chart").flowChart({'line-width': 2})
+    $(".language-diagram").sequenceDiagram({color: '#798486', theme: 'simple' /* 'hand' */})
+    $(".language-chart").flowChart({'line-color': '#798486','line-width': 2})
   })
 }($)
