@@ -1,15 +1,8 @@
-<header class="masthead">
-  <div class="container">
-    <a href="{{ site.baseurl }}/" class="masthead-logo">
-      <img class="svg" src="{{ site.baseurl }}/assets/brand/brimer.svg" alt="Brimer" width="32" height="32">
-      Brimer
-    </a>
-
-    <nav class="masthead-nav">
-      <a {% if page.title contains 'Scaffolding' %}class="active"{% endif %} href="{{ site.baseurl }}/scaffolding.html">Docs</a>
-      <a {% if page.title contains 'About' %}class="active"{% endif %} href="{{ site.baseurl }}/about.html">About</a>
-      <a href="{{ site.githuburl }}" target="_blank">GitHub</a>
-      <a href="{{ site.githuburl }}/blob/master/README.md#install" target="_blank">Install</a>
-    </nav>
-  </div>
-</header>
+<div class="container">
+  <img src="{{ site.baseurl }}/assets/brand/logo.svg">
+  <ul class='pull-right'>
+    <li><a {% if page.title contains 'Scaffolding' %}class="active"{% endif %} href='{{ site.baseurl }}/scaffolding.html' target="blank">Docs</a></li>
+    <li><a {% if page.title contains 'About' %}class="active"{% endif %} href='http://dojotoolkit.org/documentation' target="blank">About</a></li>
+    <li><a href='https://github.com/websemantics/builder-extension' target="blank">Github</a></li>
+  </ul>
+</div>

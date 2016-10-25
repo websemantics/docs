@@ -4,25 +4,22 @@
     {% include header.html %}
   </head>
   <body>
-
+  <nav class="navbar docs">
     {% include navbar.html %}
-
-    <div class="container">
-      <div class="columns docs-layout">
-        <div class="one-fourth column">
-          {% include sidenav.html %}
-        </div>
-        <div class="three-fourths column markdown-body">
-          <h1 class="page-title">
-            {{ page.title }}
-          </h1>
-          <div class="markdown-body">
-            {{ content }}
-          </div>
-        </div>
-      </div>
-      {% include footer.html %}
+  </nav>
+	<div class="container">
+		<div class="column one-third">
+        {% include sidenav.html %}
     </div>
-    
+		<div class="column two-third">
+        <h1>
+            {{ page.title }}
+        </h1>
+        <div>
+            {{ content }}
+        </div>
+    </div>
+  </div>
+  {% include footer.html %}    
   </body>
 </html>

@@ -4,11 +4,11 @@
     {% include header.html %}
   </head>
   <body>
+  <nav class="navbar">
     {% include navbar.html %}
-    {% include jumbotron.html %}
-    {{ content }}
-    <div class="container">
-      {% include footer.html %}
-    </div>    
+  </nav>
+  {% include jumbotron.html %}
+  {{ content }}
+  {% include footer.html %}
   </body>
 </html>
