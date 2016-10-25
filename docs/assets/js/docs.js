@@ -37,7 +37,7 @@
  *
  */
 
-!function ($) {
+;function ($) {
   'use strict'
 
   $(function () {
