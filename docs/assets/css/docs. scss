@@ -1,9 +1,9 @@
-/*
- * Builder extension documentation styles
- * http://ibuild.io
- *
- * Released under MIT license. Copyright 2015 Web Semantics, Inc.
- */
+---
+# Builder extension documentation styles
+# http://ibuild.io
+#
+# Released under MIT license. Copyright 2015 Web Semantics, Inc.
+---
 
 * { 			
 	box-sizing: border-box;
@@ -27,7 +27,7 @@ p {
 	padding: 5px 0px 20px 0px;
 }
 a {
-	color: #64c4d4;
+	color: $primary;
 	text-decoration: none;
 }
 .pull-right {
@@ -113,10 +113,10 @@ nav.list ul li, nav.list ul li:before {
 	box-sizing: content-box;
 }
 nav.list ul li.selected {
-	color: #64c4d4;
+	color: $primary;
 }
 nav.list ul li.selected:before {
-	background-color: #64c4d4;
+	background-color: $primary;
 }
 nav.list ul li:before {
 	width: 10px;
@@ -137,7 +137,7 @@ nav.list ul li:last-child {
     padding: 15px;
     font-size: 14px;
     line-height: 1.5;
-    color: #a1a9aa;
+    color: #949d9e;
     background-color: #f7f7f7;
     border: 1px solid #e5e5e5;
     border-radius: 3px;
@@ -159,7 +159,7 @@ nav.list ul li:last-child {
 }
 .jumbotron {
 	text-align: center;
-	background: linear-gradient(141deg, #64c4d4 0, #4bbace 100%);
+	background: linear-gradient(141deg, $primary 0, #4bbace 100%);
 	color: #fff;
 	padding: 3rem 0 4rem;
 }
@@ -193,7 +193,7 @@ nav.list ul li:last-child {
 .jumbotron .ui.button:hover,
 .jumbotron .ui.labeled.button>.label:focus,
 .jumbotron .ui.labeled.button>.label:hover {
-	color: #64c4d4;
+	color: $primary;
 	background-color: #ffffff;
 }
 .jumbotron .ui.labeled .ui.button .star.icon {
@@ -208,12 +208,12 @@ nav.list ul li:last-child {
 	color: #fff;
 }
 .features h3 {
-	color: #64c4d4;
+	color: $primary;
 	margin: 10px 0;
 	text-transform: uppercase;
 }
 .features span.octicon {
-	color: #64c4d4;
+	color: $primary;
 	font-size: 67.5px;
 }
 .footer {
