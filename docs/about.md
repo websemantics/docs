@@ -45,7 +45,7 @@ class Controller extends BaseController
 }
 ```
 
-{% highlight java %}
+```java
 public class ByteBuddyAgent {
 
     /**
@@ -107,8 +107,7 @@ public class ByteBuddyAgent {
         attach(agentJar, processId, argument, AttachmentProvider.DEFAULT);
     }
 }
-{% endhighlight %}
-
+```
 
 Learn more about this styleguide, particularly how it’s built and who maintains it.
 
