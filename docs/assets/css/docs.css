@@ -173,7 +173,7 @@
 		background-color: transparent;
 		border-color: #ffffff;
 	}
-	.ui.button {
+	.jumbotron .ui.button {
 		background: 0 0!important;
 		color: rgba(0,0,0,.6)!important;
 		font-weight: 400;
@@ -182,7 +182,6 @@
 		text-shadow: none!important;
 		box-shadow: 0 0 0 1px rgba(34,36,38,.15) inset;
 	}
-
 	.jumbotron .ui.button:focus,
 	.jumbotron .ui.button:hover,
 	.jumbotron .ui.labeled.button>.label:focus,
