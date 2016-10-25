@@ -1,8 +1,10 @@
 <div class="container">
-  <img src="{{ site.baseurl }}/assets/brand/logo.svg">
+  <a href='{{ "/" | absolute_url }}'>
+    <img src="{{ site.baseurl }}/assets/brand/logo.svg">
+  </a>
   <ul class='pull-right'>
-    <li><a {% if page.title contains 'Scaffolding' %}class="active"{% endif %} href='{{ site.baseurl }}/scaffolding.html' target="blank">Docs</a></li>
-    <li><a {% if page.title contains 'About' %}class="active"{% endif %} href='{{ site.baseurl }}/about.html' target="blank">About</a></li>
+    <li><a {% if page.title contains 'Scaffolding' %}class="active"{% endif %} href='{{ "/scaffolding.html" | absolute_url }}' target="blank">Docs</a></li>
+    <li><a {% if page.title contains 'About' %}class="active"{% endif %} href='{{ "/about.html" | absolute_url }}' target="blank">About</a></li>
     <li><a href='https://github.com/websemantics/builder-extension' target="blank">Github</a></li>
   </ul>
 </div>
