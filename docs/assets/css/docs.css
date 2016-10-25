@@ -162,7 +162,7 @@
 		color: #64c4d4;
 		font-size: 67.5px;
 	}
-	.jumbotron .ui.button {
+	.ui.button {
     	display: inline-block;
 		color: #ffffff;
 		margin: 2px;
@@ -174,27 +174,27 @@
 		text-transform: none;
 		text-shadow: none!important;
 	}
-	.jumbotron .ui.labeled.button>.button {
+	.ui.labeled.button>.button {
 		margin: 0;
 		padding: 0;
 		box-shadow: none;
 	}
-	.jumbotron .ui.labeled.button>.label {
+	.ui.labeled.button>.label {
 		color: #ffffff;
 		background-color: transparent;
 		border-color: #ffffff;
 	}
-	.jumbotron .ui.button:focus,
-	.jumbotron .ui.button:hover,
-	.jumbotron .ui.labeled.button>.label:focus,
-	.jumbotron .ui.labeled.button>.label:hover {
+	.ui.button:focus,
+	.ui.button:hover,
+	.ui.labeled.button>.label:focus,
+	.ui.labeled.button>.label:hover {
 		color: #64c4d4;
 		background-color: #ffffff;
 	}
-	.jumbotron .ui.labeled .ui.button .star.icon {
+	.ui.labeled .ui.button .star.icon {
 		color: #e3d09c;
 	}
-	.jumbotron .ui.labeled .ui.button:hover .star.icon {
+	.ui.labeled .ui.button:hover .star.icon {
 		color: #cdaa4c;
 	}
 	.footer {
