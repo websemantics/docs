@@ -1,0 +1,21 @@
+/*
+ * Builder extension documentation styles
+ * http://ibuild.io
+ *
+ * Released under MIT license. Copyright 2015 Web Semantics, Inc.
+ */
+
+.features {
+	padding: 4rem 0 2rem;
+	text-align: center;
+	color: #fff;
+    h3 {
+        color: $primary;
+        margin: 10px 0;
+        text-transform: uppercase;
+    }
+    span.octicon {
+        color: $primary;
+        font-size: 67.5px;
+    }
+}

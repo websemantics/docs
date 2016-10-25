@@ -1,0 +1,56 @@
+/*
+ * Builder extension documentation styles
+ * http://ibuild.io
+ *
+ * Released under MIT license. Copyright 2015 Web Semantics, Inc.
+ */
+
+.jumbotron {
+	text-align: center;
+	background: linear-gradient(141deg, $primary 0, #4bbace 100%);
+	color: #fff;
+	padding: 3rem 0 4rem;
+    p {
+        color: #ffffff;
+    }
+    h1 {
+        color: #fff;
+        font-size: 67.5px;
+        font-weight: 300;
+        margin: 1rem 0 2rem;
+    }
+    .ui.button {
+        display: inline-block;
+        color: #ffffff;
+        margin: 2px;
+        padding: .78571429em 1.5em;
+        background-color: transparent;
+        box-shadow: 0 0 0 1px #ffffff inset;
+        font-weight: 400;
+        border-radius: .28571429rem;
+        text-transform: none;
+        text-shadow: none!important;
+        &:focus,
+        &:hover,
+        &.labeled>.label:focus,
+        &.labeled>.label:hover {
+            color: $primary;
+            background-color: #ffffff;
+        }
+        &.labeled {
+            &>.label {
+                color: #ffffff;
+                background-color: transparent;
+                border-color: #ffffff;
+            }
+            .ui.button {
+                .star.icon {
+                    color: #e3d09c;
+                }
+                &:hover {
+	                color: #cdaa4c;
+                }
+            } 
+        } 
+    }
+}
