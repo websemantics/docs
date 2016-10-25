@@ -35,8 +35,7 @@
  *  @author    Web Semantics, Inc. Dev Team <team@websemantics.ca>
  *  @author    Adnan M.Sagar, PhD. <adnan@websemantics.ca>
  *
- */                              'font-color': 'black',
-
+ */                             
 
 !function ($) {
   'use strict'
