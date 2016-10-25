@@ -45,6 +45,21 @@ class Controller extends BaseController
 }
 ```
 
+{% highlight php %}
+namespace App\Http\Controllers;
+
+use Illuminate\Foundation\Bus\DispatchesJobs;
+use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Foundation\Validation\ValidatesRequests;
+use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
+
+class Controller extends BaseController
+{
+    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+}
+{% endhighlight %}
+
+
 Learn more about this styleguide, particularly how it’s built and who maintains it.
 
 ## What and why
