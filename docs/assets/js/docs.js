@@ -41,9 +41,9 @@
   'use strict'
   $(function () {
     $(".language-diagram").sequenceDiagram({color: '#798486', theme: 'simple' /* 'hand' */})
-    $(".language-chart").flowChart({'line-color': '#798486', 
+    $(".language-chart").flowChart({'line-color': '#a3abac', 
                                     'font-color': '#798486', 
-                                    'element-color': '#798486',
+                                    'element-color': '#a3abac',
                                     'line-width': 2})
   })
 }($)
