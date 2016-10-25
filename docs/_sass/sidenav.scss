@@ -41,16 +41,17 @@
                 border-width: 5px;
             }
             &.selected {
-                color: $primary;
                 &:before {
                     background-color: $primary;
+                }
+                a {
+                    color: $primary;
                 }
             }
             &:last-child {
                 border-width: 0;
                 margin-left: 10px;
             }
-
             a {
                 color: #798486;
             }
