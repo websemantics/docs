@@ -40,99 +40,109 @@ a {
 	padding-right: 20px;
 	margin-right: auto;
 	margin-left: auto;
+    &::before,
+    &::after {
+        display: table;
+        content: "";
+    }
+    &::after {
+	    clear: both;
+    }
+    .column {
+        float: left;
+        padding-right: 10px;
+        padding-left: 10px;
+        &.one-third {
+            width: 33.33%;
+        }
+        &.two-third {
+            width: 66.66%;
+        }
+    }
 }
-.container::before,
-.container::after {
-	display: table;
-	content: "";
+nav {
+    &.navbar {
+        &.docs {
+            .container {
+                border-bottom: 1px solid #eaeaea;
+                margin-bottom: 2rem;
+            }
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li {
+                line-height: 86px;
+                font-size: 15px;
+                margin-left: 30px;
+                background: #fff;
+                display: inline-block;
+                a {
+                    text-transform: uppercase;
+                }
+            }
+        }
+        img {
+            position: relative;
+            top: 24px;
+            height: 38px;
+        }
+    }
+    &.list {
+        h3 a {
+            font-size: larger;
+            color: #798486;
+        }
+        ul {
+            margin-top: 16px;
+            margin-left: 0;
+            padding-left: 0;
+            list-style: none;
+            li {
+                font-weight: 300;
+                margin-left: 0;
+                font-size: 16px;
+                line-height: 26px;
+                cursor: default;
+                padding-left: 15px;
+                padding-bottom: 10px;
+                border-width: 0 0 0 10px;
+                &, &:before {
+                    border-color: #f5f5f5;
+                    border-style: solid;
+                    box-sizing: content-box;
+                }
+                &:before {
+                    width: 10px;
+                    height: 16px;
+                    background-color: #a3abac;
+                    content: '';
+                    position: absolute;
+                    margin-left: -30px;
+                    margin-top: -1px;
+                    border-radius: 12px;
+                    border-width: 5px;
+                }
+                &.selected {
+                    color: $primary;
+                    &:before {
+                        background-color: $primary;
+                    }
+                }
+                &:last-child {
+                    border-width: 0;
+                    margin-left: 10px;
+                }
+
+                a {
+                    color: #798486;
+                }
+            }
+        }
+    }
 }
-.container::after {
-	clear: both;
-}
-.column {
-	float: left;
-	padding-right: 10px;
-	padding-left: 10px;
-}
-.one-third {
-	width: 33.33%;
-}
-.two-third {
-	width: 66.66%;
-}
-nav.navbar.docs .container {
-	border-bottom: 1px solid #eaeaea;
-	margin-bottom: 2rem;
-}
-nav.navbar ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-nav.navbar ul li {
-	line-height: 86px;
-	font-size: 15px;
-	margin-left: 30px;
-	background: #fff;
-	display: inline-block;
-}
-nav.navbar a {
-	text-transform: uppercase;
-}
-nav.navbar img {
-	position: relative;
-	top: 24px;
-	height: 38px;
-}
-nav.list h3 a {
-	font-size: larger;
-	color: #798486;
-}
-nav.list ul {
-	margin-top: 16px;
-	margin-left: 0;
-	padding-left: 0;
-	list-style: none;
-}
-nav.list ul li {
-	font-weight: 300;
-	margin-left: 0;
-	font-size: 16px;
-	line-height: 26px;
-	cursor: default;
-	padding-left: 15px;
-	padding-bottom: 10px;
-	border-width: 0 0 0 10px;
-}
-nav.list ul li a {
-	color: #798486;
-}
-nav.list ul li, nav.list ul li:before {
-	border-color: #f5f5f5;
-	border-style: solid;
-	box-sizing: content-box;
-}
-nav.list ul li.selected {
-	color: $primary;
-}
-nav.list ul li.selected:before {
-	background-color: $primary;
-}
-nav.list ul li:before {
-	width: 10px;
-	height: 16px;
-	background-color: #a3abac;
-	content: '';
-	position: absolute;
-	margin-left: -30px;
-	margin-top: -1px;
-	border-radius: 12px;
-	border-width: 5px;
-}
-nav.list ul li:last-child {
-	border-width: 0;
-	margin-left: 10px;
-}
+
 .message {
     padding: 15px;
     font-size: 14px;
