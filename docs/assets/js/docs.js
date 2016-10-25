@@ -39,12 +39,8 @@
 
 !function ($) {
   'use strict'
-
   $(function () {
-
     $(".language-diagram").sequenceDiagram({stroke: '#798486', theme: 'simple' /* 'hand' */})
     $(".language-chart").flowChart({'line-width': 2})
-
-  })stroke
-
+  })
 }($)
