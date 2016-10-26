@@ -49,26 +49,26 @@ a {
 
 svg.logo {
 	.body {
-		.bg {
+		&.bg {
 			fill: #fff;
 		}
-		.left {
+		&.left {
 			fill: #64c4d4; 
 		}
-		.righ {
+		&.righ {
 			fill: #dfe0e1; 
 		}
-		.border {
+		&.border {
 			fill: none;
 			stroke: #231f20;
 			stroke-width: 18.547 
 		}
-		.eye {
+		&.eye {
 			fill: #fff;
 			stroke: #231f20;
 			stroke-width: 18.547; 
 		}
-		.dot {
+		&.dot {
 			fill: #231f20; 
 		}
 	}
