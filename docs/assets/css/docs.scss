@@ -74,6 +74,8 @@ svg.logo {
 	}
 	.char {
 		fill: $brand-black;
+		stroke: $brand-black;
+		stroke-width: $brand-char-stroke-width;
 	}
 }
 
