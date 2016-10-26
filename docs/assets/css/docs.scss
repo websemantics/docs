@@ -47,35 +47,33 @@ a {
 	text-decoration: none;
 }
 
-svg {
-	.logo {
-		.body {
-			.bg {
-				fill: #fff;
-			}
-			.left {
-				fill: #64c4d4; 
-			}
-			.righ {
-				fill: #dfe0e1; 
-			}
-			.border {
-				fill: none;
-				stroke: #231f20;
-				stroke-width: 18.547 
-			}
-			.eye {
-				fill: #fff;
-				stroke: #231f20;
-				stroke-width: 18.547; 
-			}
-			.dot {
-				fill: #231f20; 
-			}
+svg.logo {
+	.body {
+		.bg {
+			fill: #fff;
 		}
-		.char {
-			fill: #231f20;
+		.left {
+			fill: #64c4d4; 
 		}
+		.righ {
+			fill: #dfe0e1; 
+		}
+		.border {
+			fill: none;
+			stroke: #231f20;
+			stroke-width: 18.547 
+		}
+		.eye {
+			fill: #fff;
+			stroke: #231f20;
+			stroke-width: 18.547; 
+		}
+		.dot {
+			fill: #231f20; 
+		}
+	}
+	.char {
+		fill: #231f20;
 	}
 }
 
