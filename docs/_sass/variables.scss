@@ -6,7 +6,16 @@
  */
 
 $primary: #64c4d4;
-$gray: #a3abac;
+$edward: #a3abac;
+$white: #ffffff;
+$grey: #a3abac;
+$dark: #231f20;
+
+$brand-primary: $primary;
+$brand-grey: $grey;
+$brand-black: $dark;
+$brand-white: $white;
+$brand-stroke-width: 18.547;
 
 $text-color: $gray;
 $text-color-dark:  darken($gray, 10%);

@@ -50,30 +50,30 @@ a {
 svg.logo {
 	.body {
 		&.bg {
-			fill: #fff;
+			fill: $brand-white;
 		}
 		&.left {
-			fill: #64c4d4; 
+			fill: $brand-primary; 
 		}
 		&.right {
-			fill: #dfe0e1; 
+			fill: $brand-grey; 
 		}
 		&.border {
 			fill: none;
-			stroke: #231f20;
-			stroke-width: 18.547 
+			stroke: $brand-black;
+			stroke-width: $brand-stroke-width; 
 		}
 		&.eye {
-			fill: #fff;
-			stroke: #231f20;
-			stroke-width: 18.547; 
+			fill: $brand-white;
+			stroke: $brand-black;
+			stroke-width: $brand-stroke-width; 
 		}
 		&.dot {
-			fill: #231f20; 
+			fill: $brand-black; 
 		}
 	}
 	.char {
-		fill: #231f20;
+		fill: $brand-black;
 	}
 }
 
